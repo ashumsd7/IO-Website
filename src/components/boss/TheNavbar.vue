@@ -11,7 +11,7 @@
     
      </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
+    <img src="../../assets/menu.png" alt="">
   </button>
 
   <div class="collapse navbar-collapse d-lg-flex flex-row-reverse " id="navbarSupportedContent">
@@ -31,6 +31,9 @@
       </li>
        <li class="nav-item ml-md-3">
         <a class="nav-link bg-warning mr-3 rounded  register-btn text-dark px-3 font-weight-bold"   href="#">Register</a>
+      </li>
+         <li class="nav-item ml-lg-3">
+        <a class="nav-link" href="#">Avatar</a>
       </li>
       <!-- <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -89,6 +92,9 @@
   font-weight: bolder;
   
 }
+.register-btn{
+  max-width: 90px;
+}
 
 #logo{
   width: .2rem;
@@ -114,5 +120,13 @@
   border-radius: 50%;
    margin-top:-3px;
    margin-left: -20px;
+}
+.navbar-toggler {
+  border: none;
+  outline: none;
+}
+.navbar-toggler:hover{
+ 
+  transform: scale(1.1)
 }
 </style>

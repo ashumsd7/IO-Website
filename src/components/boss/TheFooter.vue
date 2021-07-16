@@ -36,7 +36,7 @@ export default {};
 .footer {
   /* font-weight: bolder; */
   height: 180px;
-  font-size: 0.9rem;
+  /* font-size: 0.9rem; */
 }
 .design-banner-circle {
   width: 200px;

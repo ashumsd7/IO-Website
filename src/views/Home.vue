@@ -82,19 +82,17 @@
         <div class="col-md-8 m-2 p-3 you-matter-div">
           <h2 class="mt-2">Because YOU matter</h2>
           <p>
-            Amet sit sadipscing ea labore ea duo stet, ea nonumy et sed amet
-            consetetur magna diam labore, lorem aliquyam accusam vero no duo
-            invidunt dolor. Sed sanctus erat diam lorem est consetetur et
-            gubergren, no sed elitr lorem ipsum. Sadipscing lorem nonumy vero
-            sit kasd tempor sanctus sit ipsum, et sit no consetetur no erat
-            stet, diam tempor ut sed magna takimata takimata voluptua takimata.
-            Sit eirmod duo amet lorem. Sit magna est kasd sanctus nonumy amet
-            dolore takimata,
+               Amet sit sadipscing ea labore ea duo stet, magna diam labore,
+                lorem aliquyam accusam vero no duo invidunt dolor. Sed sanctus
+                erat diam lorem est consetetur et gubergren, no sed elitr lorem
+                ipsum. Sadipscing lorem nonumy vero sit kasd tempor sanctus sit
+                ipsum, et sit no consetetur no erat stet, diam tempor ut sed
+                magna takimata
           </p>
         </div>
         <div class="col-md-2 m-1 p-3 calender-div text-center">
           <img src="../assets/calendar.png" alt="" />
-          <h2 class="mt-1">16 July</h2>
+          <h2 class="mt-3">16 July</h2>
           <h3>Friday</h3>
         </div>
       </div>
@@ -104,7 +102,7 @@
 
     <!-- ______________CELEBRATION OF TECH___________START -->
 
-    <div class="container mt-5">
+    <div class="container  mt-5">
       <div class="row mt-5">
         <div class="col m-auto mb-4 box d-flex justify-content-center">
           <h1 class="heading">
@@ -113,8 +111,8 @@
         </div>
       </div>
       <div class="row">
-        <div class="col m-auto d-flex justify-content-center">
-          <img src="../assets/tech.png" alt="" class="img-fluid" />
+        <div class="col m-auto partners-img d-flex justify-content-center">
+          <img src="../assets/partners.png" alt="" class="img-fluid" />
         </div>
       </div>
     </div>
@@ -129,7 +127,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-lg">
+        <div class="col-md">
           <div class="row d-flex justify-content-center align-items-center">
             <div class="col-md-5 text-center">
               <div class="row mb-3">
@@ -242,7 +240,7 @@
       </div>
       <div class="row">
         <div class="col m-auto d-flex justify-content-center">
-          <img src="../assets/partners.png" alt="" class="img-fluid" />
+          <img src="../assets/partners1.png" alt="" class="img-fluid" />
         </div>
       </div>
     </div>
@@ -328,6 +326,9 @@ export default {};
   .design-banner-square,.design-banner-circle{
     display: none;
   }
+  .calender-div{
+    max-width: 300px;
+  }
 }
 
 .main-header #tag1 {
@@ -389,6 +390,7 @@ h1 span {
 }
 .calender-div {
   background: #3b8fff;
+  color: wheat;
 }
 
 /* ___CEO */
@@ -400,6 +402,7 @@ h1 span {
 
 /* ______CELEBRATION OF TECH START________ */
 
+
 #IO {
   font-weight: 900;
 }
@@ -408,4 +411,17 @@ h1 span {
   font-size: 2rem;
 } */
 /* ______CELEBRATION OF TECH END */
+
+
+
+
+/* _____mix */
+
+@media screen and (max-width:750px) {
+  .calender-div{
+    max-width: 160px;
+    
+   
+  }
+}
 </style>
