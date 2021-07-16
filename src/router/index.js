@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/Home.vue'
+// import Events from "../views/TooltipTest.vue";
 
 
 const routes = [
@@ -8,7 +9,11 @@ const routes = [
     name: "Home",
     component: Home,
   },
-
+  // {
+  //   path: "/tool",
+  //   name: "TootTip",
+  //   component: TootTip,
+  // },
 ];
 
 const router = createRouter({

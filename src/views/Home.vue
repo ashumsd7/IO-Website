@@ -117,6 +117,22 @@
       </div>
     </div>
     <!-- ______________CELEBRATION OF _________END -->
+<!-- ______________EVENT AGENDA_______start -->
+<div class="container mt-5">
+      <div class="row mt-5">
+        <div class="col box m-auto d-flex justify-content-center">
+          <h1 class="heading mb-4">
+            Event <span id="IO">Agenda </span>
+          </h1>
+        </div>
+      </div>
+      <div class="row ">
+       <events></events>
+      </div>
+    </div>
+
+    <!-- ________EVENT AGENDA END________ -->
+
 
     <!-- ______________SPEAKERS LINEUP___________START -->
 
@@ -250,7 +266,12 @@
 </template>
 
 <script>
-export default {};
+import Events  from './Events.vue'
+export default {
+  components:{
+    Events
+  }
+};
 </script>
 <style  scoped>
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap");
@@ -412,8 +433,11 @@ h1 span {
 } */
 /* ______CELEBRATION OF TECH END */
 
-
-
+/* _____EVENT START____ */
+.event_icons{
+  margin-left: -80px;
+}
+/* _____EVENT END______ */
 
 /* _____mix */
 
