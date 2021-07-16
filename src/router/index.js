@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/Home.vue'
-import Tooltip from "../views/Tooltip.vue"
+
 
 const routes = [
   {
@@ -8,11 +8,7 @@ const routes = [
     name: "Home",
     component: Home,
   },
-  {
-    path: "/tool",
-    name: "Tooltip",
-    component: Tooltip,
-  },
+
 ];
 
 const router = createRouter({
